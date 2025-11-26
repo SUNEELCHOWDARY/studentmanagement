@@ -4,7 +4,7 @@
 
 ## Overview
 
-Student Management System is a robust and user-friendly application for managing students, courses, grades, and more. This tool helps educators and administrators organize and access student data efficiently.
+Student Management System is a robust and user-friendly React.js application for managing students, courses, grades, and more. This tool helps educators and administrators organize and access student data efficiently.
 
 ## Features
 
@@ -16,43 +16,77 @@ Student Management System is a robust and user-friendly application for managing
 
 ## Screenshots
 
-Below are sample outputs from the application:
+Sample output from the application:
 
 <img src="images/studentmanagement-output-2.png" alt="Student List Screen" width="700"/>
 <br>
 <img src="images/studentmanagement-output-3.png" alt="Gradebook Output" width="700"/>
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+- **Node.js** (v16 or later) – [Download](https://nodejs.org/)
+- **npm** (comes with Node.js) or **yarn**
 
-- [List any required dependencies, e.g., Python 3.x, Java, Node.js, etc.]
-- [Describe how to install necessary libraries/modules]
+## Installation
 
-### Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/SUNEELCHOWDARY/studentmanagement.git
-    ```
-2. (Optional) Install dependencies:
-    ```bash
-    [Insert installation commands depending on your project]
-    ```
-
-3. Run the application:
-    ```bash
-    [Insert commands to run your project]
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SUNEELCHOWDARY/studentmanagement.git
+   cd studentmanagement
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Install additional key dependencies:**
+   ```bash
+   npm i axios react react-dom
+   ```
+   > These commands install axios (for HTTP requests), react (core framework)
 
 ## Usage
 
-- Start the app and use the navigation menu to manage students and courses.
-- Use the reporting tools for academic insights.
+### Start the development server
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+### Start the backend server (Mock API with json-server)
+```bash
+npm run backend
+```
+This runs `json-server` on port 5000 to mock your backend using `db.json`.
+
+## React Project Dependencies
+
+Your project uses the following dependencies (from [`package.json`](https://github.com/SUNEELCHOWDARY/studentmanagement/blob/780b8cd023c2bf61841c9b1ab98661edab34bfc0/package.json)):
+
+```json
+"dependencies": {
+  "axios": "^1.13.2",
+  "json-server": "^1.0.0-beta.3",
+  "react": "^19.2.0",
+  "react-dom": "^19.2.0",
+  "react-router-dom": "^7.9.6",
+  "router-dom": "^3.0.3"
+},
+"devDependencies": {
+  "@eslint/js": "^9.39.1",
+  "@types/react": "^19.2.5",
+  "@types/react-dom": "^19.2.3",
+  "@vitejs/plugin-react": "^5.1.1",
+  "eslint": "^9.39.1",
+  "eslint-plugin-react-hooks": "^7.0.1",
+  "eslint-plugin-react-refresh": "^0.4.24",
+  "globals": "^16.5.0",
+  "vite": "^7.2.4"
+}
+```
 
 ## Output Example
 
-Here is an example of the application's output screens:
+Below is an example of the application's output screens:
 
 <img src="images/studentmanagement-output-4.png" alt="Course Management Output" width="700"/>
 
@@ -60,10 +94,6 @@ Here is an example of the application's output screens:
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-
-[Specify your license here. E.g., MIT, Apache, etc.]
-
 ## Contact
 
-Created by [SUNEELCHOWDARY](https://github.com/SUNEELCHOWDARY). Feel free to contact for any information.
+Created by [SUNEELCHOWDARY](https://github.com/SUNEELCHOWDARY)
