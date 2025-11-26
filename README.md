@@ -88,7 +88,7 @@ Your project uses the following dependencies (from [`package.json`](https://gith
 
 Below is an example of the application's output screens:
 
-<img src="images/studentmanagement-output-4.png" alt="Course Management Output" width="700"/>
+<img src="Output.png" alt="Course Management Output" width="700"/>
 
 ## Contributing
 
