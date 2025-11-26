@@ -1,6 +1,6 @@
 # Student Management System
 
-<img src="images/studentmanagement-output-1.png" alt="Student Management Main Output" width="700"/>
+<img src="Output.png" alt="Student Management Main Output" width="700"/>
 
 ## Overview
 
@@ -18,9 +18,11 @@ Student Management System is a robust and user-friendly React.js application for
 
 Sample output from the application:
 
-<img src="images/studentmanagement-output-2.png" alt="Student List Screen" width="700"/>
+<img src="Home1.png" alt="Student List Screen" width="700"/>
 <br>
-<img src="images/studentmanagement-output-3.png" alt="Gradebook Output" width="700"/>
+<img src="Home2.png" alt="Gradebook Output" width="700"/>
+<br>
+<img src="Add.png" alt="Gradebook Output" width="700"/>
 
 ## Prerequisites
 
